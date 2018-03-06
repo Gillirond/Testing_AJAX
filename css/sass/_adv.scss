@@ -1,0 +1,20 @@
+$padding-bottom: 20px;
+$padding-top: $padding-bottom;
+$adv-border: 15px $border ridge;
+$col3width: 19%;
+
+#adverts {
+  width: $col3width;
+  border-left: solid darkblue;
+  text-align: center;
+  float: left;
+  padding-bottom: inherit;
+  div {
+    padding-bottom: $padding-bottom;
+    padding-top: $padding-top;
+    border-bottom: $adv-border;
+    img {
+      max-width: 100%;
+    }
+  }
+}

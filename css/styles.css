@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  border-bottom: solid darkblue;
+  vertical-align: middle; }
+  header a p {
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block; }
+    header a p img {
+      height: 30px;
+      width: 30px; }
+
+#main {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto; }
+
+#leftsidebar {
+  width: 24%;
+  border-right: solid darkblue;
+  margin-left: 10px;
+  float: left; }
+  #leftsidebar div {
+    width: 90%;
+    height: 25px;
+    background-color: lightcyan;
+    border-color: lightblue;
+    border-width: thin;
+    border-style: solid;
+    margin: 0 0 10px 0;
+    padding: 7px 5px 5px 10px; }
+
+#content {
+  width: 54%;
+  text-align: center;
+  vertical-align: middle;
+  border-left: solid darkblue;
+  float: left;
+  margin-left: -3px;
+  padding-bottom: inherit; }
+  #content h3 {
+    clear: both; }
+  #content div div {
+    float: right; }
+
+.shareBTN {
+  background-color: lawngreen;
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  border: 2px green ridge; }
+
+#adverts {
+  width: 19%;
+  border-left: solid darkblue;
+  text-align: center;
+  float: left;
+  padding-bottom: inherit; }
+  #adverts div {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 15px darkblue ridge; }
+    #adverts div img {
+      max-width: 100%; }
+
+footer {
+  border-top: solid darkblue;
+  text-align: right;
+  clear: both; }
+
+/*# sourceMappingURL=styles.css.map */

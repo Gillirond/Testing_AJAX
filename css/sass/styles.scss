@@ -1,0 +1,80 @@
+//Compile with Koala app
+$border: darkblue;
+$leftsidedivbcolor: lightblue;
+$col1width: 24%;
+$col2width: 54%;
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border-bottom: solid $border;
+  vertical-align: middle;
+  a p {
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    img {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}
+
+#main {
+  overflow: hidden;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+#leftsidebar {
+  width: $col1width;
+  border-right: solid $border;
+  margin-left: 10px;
+  float: left;
+  div {
+    width: 90%;
+    height: 25px;
+    background-color: lightcyan;
+    border-color:  $leftsidedivbcolor;
+    border-width: thin;
+    border-style: solid;
+    margin: 0 0 10px 0;
+    padding: 7px 5px 5px 10px;
+  }
+}
+
+#content {
+  width: $col2width;
+  text-align: center;
+  vertical-align: middle;
+  border-left: solid $border;
+  float: left;
+  margin-left: -3px;
+  padding-bottom: inherit;
+  h3 {
+    clear: both;
+  }
+  div div {
+    float: right;
+  }
+}
+
+.shareBTN {
+  background-color: lawngreen;
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  border: 2px green ridge;
+}
+
+@import "adv";
+
+footer {
+  border-top: solid $border;
+  text-align: right;
+  clear: both;
+}
